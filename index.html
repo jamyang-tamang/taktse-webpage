@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- 
+    File:    index.html
+    Author:  Jamyang Tamang
+    Date:    2020-05-30
+    Purpose: Attendence Portal for Teachers at Taktse International School
+ -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <script src="js/crud.js"></script>
+    <script src="js/accounts.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<h1>Taktse Teacher Attendence Sheets</h1>
+
+
+<div id="signin" class="account view signin-view">
+        <h2>Sign in</h2>
+        <p class='error-message'></p>
+        <form>
+            <fieldset>
+                <label>Username</label>
+                <input type="text" name="username" required="required"/>
+            </fieldset>
+            
+            <fieldset>
+                <label>Password</label>
+                <input type="password" name="password" required="required"/>
+            </fieldset>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="lname">Show Password</label><br><br>
+
+            <input type="submit" value="Sign in"/>
+        </form>
+        </p>
+    </div>
+</body>
+</html>
